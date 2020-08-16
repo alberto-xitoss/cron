@@ -1,7 +1,6 @@
 {
   "name": "am2tec/cron",
   "description": "Controle da cron em php e postgres",
-  "minimum-stability": "stable",
   "keywords": [
     "cron",
     "crontab",
