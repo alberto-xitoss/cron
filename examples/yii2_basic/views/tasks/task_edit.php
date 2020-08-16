@@ -1,6 +1,6 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 21.12.15
  * Time: 0:56
  * @var \app\models\Task $task
@@ -28,9 +28,9 @@ $form = ActiveForm::begin([]);
         </div>
         <?= $form->field($task, 'command')->textInput(['placeholder' => 'Controller::method']) ?>
         <?= $form->field($task, 'status')->dropDownList(array(
-            \mult1mate\crontab\TaskInterface::TASK_STATUS_ACTIVE => 'Active',
-            \mult1mate\crontab\TaskInterface::TASK_STATUS_INACTIVE => 'Inactive',
-            \mult1mate\crontab\TaskInterface::TASK_STATUS_DELETED => 'Deleted',
+            \am2tec\crontab\TaskInterface::TASK_STATUS_ACTIVE => 'Active',
+            \am2tec\crontab\TaskInterface::TASK_STATUS_INACTIVE => 'Inactive',
+            \am2tec\crontab\TaskInterface::TASK_STATUS_DELETED => 'Deleted',
         )) ?>
         <?= $form->field($task, 'comment') ?>
 

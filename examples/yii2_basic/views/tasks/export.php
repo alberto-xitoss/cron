@@ -1,6 +1,6 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 31.12.15
  * Time: 13:35
  */

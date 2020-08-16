@@ -1,11 +1,11 @@
 <?php
-namespace mult1mate\crontab;
+namespace am2tec\crontab;
 
 /**
  * Class TaskLoader
  * Loads classes and provides list of available methods
- * @author mult1mate
- * @package mult1mate\crontab
+ * @author am2tec
+ * @package am2tec\crontab
  * Date: 07.02.16
  * Time: 12:53
  */

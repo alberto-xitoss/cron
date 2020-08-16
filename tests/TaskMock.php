@@ -1,10 +1,10 @@
 <?php
-namespace mult1mate\crontab_tests;
+namespace am2tec\crontab_tests;
 
-use mult1mate\crontab\TaskInterface;
+use am2tec\crontab\TaskInterface;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 01.02.16
  * Time: 10:07
  */
@@ -47,7 +47,7 @@ class TaskMock implements TaskInterface
     }
 
     /**
-     * @return \mult1mate\crontab\TaskRunInterface
+     * @return \am2tec\crontab\TaskRunInterface
      */
     public function createTaskRun()
     {

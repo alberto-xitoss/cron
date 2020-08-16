@@ -1,6 +1,6 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 21.12.15
  * Time: 0:38
  * @var array $tasks
@@ -29,7 +29,7 @@ $this->load->view('tasks/template');
         /**
          * @var Task $t
          */
-        $status_class = (\mult1mate\crontab\TaskInterface::TASK_STATUS_ACTIVE == $t->status) ? '' : 'text-danger';
+        $status_class = (\am2tec\crontab\TaskInterface::TASK_STATUS_ACTIVE == $t->status) ? '' : 'text-danger';
         ?>
         <tr>
             <td>

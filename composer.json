@@ -1,6 +1,6 @@
 {
-  "name": "mult1mate/cron-manager",
-  "description": "Flexible cron tasks manager for MVC-type applications",
+  "name": "am2tec/cron",
+  "description": "Controle da cron em php e postgres",
   "minimum-stability": "stable",
   "keywords": [
     "cron",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "MUlt1mate",
-      "email": "multimate.abs@gmail.com"
+      "name": "AM2tec",
+      "email": "am2tec@suport.com"
     }
   ],
   "require": {
@@ -29,8 +29,8 @@
   },
   "autoload": {
     "psr-4": {
-      "mult1mate\\crontab\\": "src/",
-      "mult1mate\\crontab_tests\\": "tests/"
+      "am2tec\\crontab\\": "src/",
+      "am2tec\\crontab_tests\\": "tests/"
     }
   }
 }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 23.01.16
  * Time: 12:37
  */
@@ -11,7 +11,7 @@ class BusinessModel extends CI_Model
     {
         $task = Task::findOne();
         /**
-         * @var \mult1mate\crontab\TaskInterface $task
+         * @var \am2tec\crontab\TaskInterface $task
          */
         echo $task->getCommand();
         return true;

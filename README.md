@@ -6,11 +6,11 @@ The purpose of this tool is to provide an easy way to manipulate repetitive task
 
 [Live Demo](https://cron.multimate.ru)
 
-[![Build Status](https://travis-ci.org/MUlt1mate/cron-manager.svg?branch=master)](https://travis-ci.org/MUlt1mate/cron-manager)
-[![Code Climate](https://codeclimate.com/github/MUlt1mate/cron-manager/badges/gpa.svg)](https://codeclimate.com/github/MUlt1mate/cron-manager)
-[![Test Coverage](https://codeclimate.com/github/MUlt1mate/cron-manager/badges/coverage.svg)](https://codeclimate.com/github/MUlt1mate/cron-manager/coverage)
+[![Build Status](https://travis-ci.org/am2tec/cron-manager.svg?branch=master)](https://travis-ci.org/am2tec/cron-manager)
+[![Code Climate](https://codeclimate.com/github/am2tec/cron-manager/badges/gpa.svg)](https://codeclimate.com/github/am2tec/cron-manager)
+[![Test Coverage](https://codeclimate.com/github/am2tec/cron-manager/badges/coverage.svg)](https://codeclimate.com/github/am2tec/cron-manager/coverage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
-[![Gitter](https://badges.gitter.im/MUlt1mate/cron-manager.svg)](https://gitter.im/MUlt1mate/cron-manager)
+[![Gitter](https://badges.gitter.im/am2tec/cron-manager.svg)](https://gitter.im/am2tec/cron-manager)
 
 ## How this is works
 Replace all tasks in crontab file with one which will invoke method ```TaskRunner::checkAndRunTasks()```.
@@ -34,7 +34,7 @@ Import tasks from current crontab file or add them manually. Active tasks will r
 
 Install package via Composer
 ```
-composer require mult1mate/cron-manager
+composer require am2tec/cron-manager
 ```
 
 ### Requirements
@@ -51,10 +51,10 @@ composer require mult1mate/cron-manager
 * Disable tasks that will be invoke through the manager
 * Make sure that manager is not publicly available
 
-See also examples for [ActiveRecord](https://github.com/MUlt1mate/cron-manager/tree/master/examples/active_record), 
-[CodeIgniter](https://github.com/MUlt1mate/cron-manager/tree/master/examples/codeigniter), 
-[Yii2](https://github.com/MUlt1mate/cron-manager/tree/master/examples/yii2_basic),
-[File storage](https://github.com/MUlt1mate/cron-manager/tree/master/examples/file_storage)
+See also examples for [ActiveRecord](https://github.com/am2tec/cron-manager/tree/master/examples/active_record), 
+[CodeIgniter](https://github.com/am2tec/cron-manager/tree/master/examples/codeigniter), 
+[Yii2](https://github.com/am2tec/cron-manager/tree/master/examples/yii2_basic),
+[File storage](https://github.com/am2tec/cron-manager/tree/master/examples/file_storage)
 
 ## Screenshots
 

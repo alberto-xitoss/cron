@@ -4,14 +4,14 @@ namespace app\controllers;
 use app\assets\TasksAsset;
 use app\models\Task;
 use app\models\TaskRun;
-use mult1mate\crontab\TaskInterface;
-use mult1mate\crontab\TaskLoader;
-use mult1mate\crontab\TaskRunner;
-use mult1mate\crontab\TaskManager;
+use am2tec\crontab\TaskInterface;
+use am2tec\crontab\TaskLoader;
+use am2tec\crontab\TaskRunner;
+use am2tec\crontab\TaskManager;
 use yii\web\Controller;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 20.12.15
  * Time: 20:56
  */

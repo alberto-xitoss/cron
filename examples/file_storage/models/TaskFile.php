@@ -1,9 +1,9 @@
 <?php
-use mult1mate\crontab\TaskInterface;
+use am2tec\crontab\TaskInterface;
 
 /**
  * Model that stores task information in file
- * @author mult1mate
+ * @author am2tec
  * Date: 22.02.16
  * Time: 17:33
  */
@@ -141,7 +141,7 @@ class TaskFile implements TaskInterface
 
     /**
      * Creates new task run object for current task and returns it
-     * @return \mult1mate\crontab\TaskRunInterface
+     * @return \am2tec\crontab\TaskRunInterface
      */
     public function createTaskRun()
     {

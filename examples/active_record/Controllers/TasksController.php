@@ -1,11 +1,11 @@
 <?php
-use mult1mate\crontab\TaskInterface;
-use mult1mate\crontab\TaskLoader;
-use mult1mate\crontab\TaskManager;
-use mult1mate\crontab\TaskRunner;
+use am2tec\crontab\TaskInterface;
+use am2tec\crontab\TaskLoader;
+use am2tec\crontab\TaskManager;
+use am2tec\crontab\TaskRunner;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 20.12.15
  * Time: 20:56
  */

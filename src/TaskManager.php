@@ -1,13 +1,13 @@
 <?php
-namespace mult1mate\crontab;
+namespace am2tec\crontab;
 
 use Cron\CronExpression;
 
 /**
  * Class TaskManager
  * Contains methods for manipulate TaskInterface objects
- * @author mult1mate
- * @package mult1mate\crontab
+ * @author am2tec
+ * @package am2tec\crontab
  * Date: 20.12.15
  * Time: 12:55
  */

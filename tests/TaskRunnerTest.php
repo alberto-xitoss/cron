@@ -1,12 +1,12 @@
 <?php
-namespace mult1mate\crontab_tests;
+namespace am2tec\crontab_tests;
 
-use mult1mate\crontab\TaskInterface;
-use mult1mate\crontab\TaskLoader;
-use mult1mate\crontab\TaskRunner;
+use am2tec\crontab\TaskInterface;
+use am2tec\crontab\TaskLoader;
+use am2tec\crontab\TaskRunner;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 07.02.16
  * Time: 14:15
  */
@@ -37,10 +37,10 @@ class TaskRunnerTest extends \PHPUnit_Framework_TestCase
 
     public function testParseAndRunCommand()
     {
-        $result = TaskRunner::parseAndRunCommand('mult1mate\crontab_tests\ActionMock::returnResult()');
+        $result = TaskRunner::parseAndRunCommand('am2tec\crontab_tests\ActionMock::returnResult()');
         $this->assertTrue($result);
 
-        $result = TaskRunner::parseAndRunCommand('mult1mate\crontab_tests\ActionMock::wrongMethod()');
+        $result = TaskRunner::parseAndRunCommand('am2tec\crontab_tests\ActionMock::wrongMethod()');
         $this->assertFalse($result);
 
         TaskLoader::setClassFolder(__DIR__ . '/runner_mocks');

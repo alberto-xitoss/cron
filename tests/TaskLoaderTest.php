@@ -1,10 +1,10 @@
 <?php
-namespace mult1mate\crontab_tests;
+namespace am2tec\crontab_tests;
 
-use mult1mate\crontab\TaskLoader;
+use am2tec\crontab\TaskLoader;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 07.02.16
  * Time: 13:49
  */
@@ -17,51 +17,51 @@ class TaskLoaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @throws \mult1mate\crontab\TaskManagerException
+     * @throws \am2tec\crontab\TaskManagerException
      */
     public function testGetAllMethods()
     {
         $result = TaskLoader::getAllMethods(
             array(__DIR__ . '/..', __DIR__, __DIR__ . '/correct_mocks'),
-            array(null, 'mult1mate\\crontab_tests\\')
+            array(null, 'am2tec\\crontab_tests\\')
         );
         $this->assertTrue(is_array($result));
     }
 
     /**
-     * @throws \mult1mate\crontab\TaskManagerException
+     * @throws \am2tec\crontab\TaskManagerException
      */
     public function testGetAllMethodsExceptions()
     {
-        $this->setExpectedException('mult1mate\crontab\TaskManagerException');
+        $this->setExpectedException('am2tec\crontab\TaskManagerException');
         TaskLoader::getAllMethods('/mocks/');
     }
 
     /**
-     * @throws \mult1mate\crontab\TaskManagerException
+     * @throws \am2tec\crontab\TaskManagerException
      */
     public function testGetControllerMethodsExceptions()
     {
-        $this->setExpectedException('mult1mate\crontab\TaskManagerException');
+        $this->setExpectedException('am2tec\crontab\TaskManagerException');
         TaskLoader::getControllerMethods('/mocks/');
     }
 
     /**
-     * @throws \mult1mate\crontab\TaskManagerException
+     * @throws \am2tec\crontab\TaskManagerException
      */
     public function testLoadControllerExceptionsFile()
     {
-        $this->setExpectedException('mult1mate\crontab\TaskManagerException');
+        $this->setExpectedException('am2tec\crontab\TaskManagerException');
         TaskLoader::setClassFolder(__DIR__ . '/wrong_mocks');
         TaskLoader::loadController('FileWithoutClass');
     }
 
     /**
-     * @throws \mult1mate\crontab\TaskManagerException
+     * @throws \am2tec\crontab\TaskManagerException
      */
     public function testLoadControllerExceptions()
     {
-        $this->setExpectedException('mult1mate\crontab\TaskManagerException');
+        $this->setExpectedException('am2tec\crontab\TaskManagerException');
         TaskLoader::setClassFolder(__DIR__);
         TaskLoader::loadController('MockClass');
     }

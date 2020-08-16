@@ -1,9 +1,9 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 21.12.15
  * Time: 0:56
- * @var \mult1mate\crontab\TaskInterface $task
+ * @var \am2tec\crontab\TaskInterface $task
  * @var array $methods
  */
 ?>

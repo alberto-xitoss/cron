@@ -1,11 +1,11 @@
 <?php
-namespace mult1mate\crontab;
+namespace am2tec\crontab;
 
 /**
  * Interface TaskInterface
  * Common interface to handle tasks
- * @package mult1mate\crontab
- * @author mult1mate
+ * @package am2tec\crontab
+ * @author am2tec
  * Date: 20.12.15
  * Time: 13:25
  */

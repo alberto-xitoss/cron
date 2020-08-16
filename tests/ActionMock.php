@@ -1,11 +1,11 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 07.02.16
  * Time: 14:39
  */
 
-namespace mult1mate\crontab_tests;
+namespace am2tec\crontab_tests;
 
 
 class ActionMock

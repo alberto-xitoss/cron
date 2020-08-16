@@ -1,11 +1,11 @@
 <?php
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;
-use mult1mate\crontab\TaskRunInterface;
+use am2tec\crontab\TaskRunInterface;
 
 /**
  * This model saves task run results into log files
- * @author mult1mate
+ * @author am2tec
  * Date: 10.04.16
  * Time: 13:39
  */

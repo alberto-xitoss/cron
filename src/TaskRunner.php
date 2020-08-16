@@ -1,13 +1,13 @@
 <?php
-namespace mult1mate\crontab;
+namespace am2tec\crontab;
 
 use Cron\CronExpression;
 
 /**
  * Class TaskRunner
  * Runs tasks and handles time expression
- * @author mult1mate
- * @package mult1mate\crontab
+ * @author am2tec
+ * @package am2tec\crontab
  * Date: 07.02.16
  * Time: 12:50
  */

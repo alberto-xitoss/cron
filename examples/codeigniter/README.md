@@ -7,7 +7,7 @@ Enable Composer in *application/config.php*
 
 Install package via Composer
 ```
-composer require mult1mate/cron-manager
+composer require am2tec/cron-manager
 ```
 
 ### Requirements

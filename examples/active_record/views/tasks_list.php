@@ -1,6 +1,6 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 21.12.15
  * Time: 0:38
  * @var array $tasks
@@ -26,9 +26,9 @@
     <?php
     foreach ($tasks as $t):
         /**
-         * @var \mult1mate\crontab\TaskInterface $t
+         * @var \am2tec\crontab\TaskInterface $t
          */
-        $status_class = (\mult1mate\crontab\TaskInterface::TASK_STATUS_ACTIVE == $t->getStatus()) ? '' : 'text-danger';
+        $status_class = (\am2tec\crontab\TaskInterface::TASK_STATUS_ACTIVE == $t->getStatus()) ? '' : 'text-danger';
         $ts =  $t->getTs() ;
         $ts_updated =$t->getTsUpdated() ;
         ?>

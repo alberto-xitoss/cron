@@ -1,12 +1,12 @@
 <?php
 namespace app\models;
 
-use mult1mate\crontab\TaskRunInterface;
+use am2tec\crontab\TaskRunInterface;
 use yii\db\ActiveRecord;
 use yii\db\Query;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 20.12.15
  * Time: 21:12
  * @property int $task_run_id

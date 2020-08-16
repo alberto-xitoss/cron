@@ -1,11 +1,11 @@
 <?php
-namespace mult1mate\crontab_tests;
+namespace am2tec\crontab_tests;
 
-use mult1mate\crontab\TaskInterface;
-use mult1mate\crontab\TaskManager;
+use am2tec\crontab\TaskInterface;
+use am2tec\crontab\TaskManager;
 
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 01.02.16
  * Time: 0:48
  */

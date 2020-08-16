@@ -1,6 +1,6 @@
 <?php
 /**
- * @author mult1mate
+ * @author am2tec
  * Date: 05.01.16
  * Time: 18:21
  * @var string $date_begin

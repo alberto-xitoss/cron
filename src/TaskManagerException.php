@@ -1,11 +1,11 @@
 <?php
-namespace mult1mate\crontab;
+namespace am2tec\crontab;
 
 /**
  * Class TaskManagerException
  * Common package exception
- * @package mult1mate\crontab
- * @author mult1mate
+ * @package am2tec\crontab
+ * @author am2tec
  * Date: 27.12.15
  * Time: 1:11
  */
