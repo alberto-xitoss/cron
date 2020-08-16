@@ -67,6 +67,7 @@ class TaskRunner
         $run->setTaskId($task->getTaskId());
         $run->setTs(date('Y-m-d H:i:s'));
         $run->setStatus(TaskRunInterface::RUN_STATUS_STARTED);
+        $run->setExecutionTime(0);
         $run->saveTaskRun();
         $run_final_status = TaskRunInterface::RUN_STATUS_COMPLETED;
 
